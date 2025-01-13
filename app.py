@@ -452,7 +452,7 @@ def main():
 
             # Display with quarter-over-quarter color highlighting
             styled_df = highlight_qoq_changes(df_display)
-            st.subheader(f"{statement_name} (Last 4 Quarters)")
+            st.subheader(f"{statement_name} (Last 5 Years)")
             st.dataframe(styled_df, height=300)
 
             # Return dictionary for JSON export
