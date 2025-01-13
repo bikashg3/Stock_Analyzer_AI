@@ -469,7 +469,7 @@ def main():
                 if "Total Revenue" in income_statement.columns:
                     total_revenue_series = income_statement["Total Revenue"]
                     if total_revenue_series.sum() > 0:
-                        styled_comment("Sum of last 4 quarters revenue is positive.", "lightgreen")
+                        styled_comment("Sum of last 5 Years revenue is positive.", "lightgreen")
                     else:
                         styled_comment("Total revenue is negative or missing. Investigate further.", "red")
             else:
