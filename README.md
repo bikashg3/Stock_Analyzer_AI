@@ -48,8 +48,8 @@ This repository hosts a Streamlit-based web application designed to help users a
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/stock-analysis-app.git
-   cd stock-analysis-app
+   git clone https://github.com/bikashg3/Stock_Analyzer_AI.git
+   cd Stock_Analyzer_AI
 2. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
